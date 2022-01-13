@@ -1,0 +1,27 @@
+.header {
+    background-color : #222;
+    height : 36px;
+    padding : 8px 32px 8px 16px;
+}
+
+.header-title {
+    background-color: #ff7f7f;
+    height: 35px;
+    width: 35px;
+}
+
+/* rotate infinitely with a complete cycle of 8 seconds, and the speed curve of the animation should be linear. */
+@media (prefers-reduced-motion: no-preference) {
+    .header-logo {
+      animation: App-logo-spin infinite 8s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
